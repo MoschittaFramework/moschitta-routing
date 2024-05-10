@@ -14,6 +14,12 @@ You can install `moschitta-routing` via pip:
 pip install moschitta-routing
 ```
 
+Or use it with Poetry:
+
+```bash
+poetry add moschitta-routing
+```
+
 ## Usage
 
 ### Creating Routes
@@ -87,6 +93,6 @@ Contributions to `moschitta-routing` are welcome! You can contribute by opening 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the [MIT LICENSE](LICENSE).
 
 
