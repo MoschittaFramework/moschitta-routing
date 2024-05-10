@@ -1,5 +1,6 @@
 from typing import Any, Callable, Optional
 
+
 class Router:
     def __init__(self):
         self.routes = {}
@@ -10,7 +11,7 @@ class Router:
             self.routes[path] = {}
         self.routes[path][method] = handler
 
-    def get(self, path: str, method: str = 'GET') -> Optional[Callable[[Any], Any]]:
+    def get(self, path: str, method: str = "GET") -> Optional[Callable[[Any], Any]]:
         """Retrieves the handler function associated with a specific route."""
         if path in self.routes and method in self.routes[path]:
             return self.routes[path][method]
