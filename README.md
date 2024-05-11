@@ -1,7 +1,3 @@
-Certainly! Below is a template for documentation for the `moschitta-routing` package:
-
----
-
 # Moschitta Routing Documentation
 
 The `moschitta-routing` package provides a simple and flexible routing system for the Moschitta Framework, allowing developers to define and handle HTTP routes easily.
